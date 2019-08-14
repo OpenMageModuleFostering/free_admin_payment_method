@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Free_Admin_Payment_Method</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://ecommerce.eglobeits.com/license.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>&#x201C;Free Admin Payment&#x201D; can help you exceed your goals. Trusted by world leading Magento admins, it gives the best possible experience in implementing blank payment method or a demo payment method to admins.</summary>
+    <description>If you are looking for a perfect product for building great eCommerce websites with Magento, &#x201C;Free Admin Payment&#x201D; can help you exceed your goals. Trusted by world leading Magento admins, it gives the best possible experience in implementing blank payment method or a demo payment method to admins. Whatever your requirements are, how complexed your Magento platform is, Free Admin Payment can give you ultra-ease in managing and matching your transactions. It will ensure that the resulting total order equals the total even if the customer has already made the payment.</description>
+    <notes>Initial release</notes>
+    <authors><author><name>eGlobe IT Solutions</name><user>egits</user><email>hello@eglobeits.com</email></author></authors>
+    <date>2015-03-26</date>
+    <time>08:51:49</time>
+    <contents><target name="magecommunity"><dir name="Egits"><dir name="AdminPayment"><dir name="Block"><file name="Info.php" hash="e5c63da78a3c19edc974e412cad166b1"/></dir><dir name="Helper"><file name="Data.php" hash="2bd4ed43b97b629cfb499b12bedc23d4"/></dir><dir name="Model"><dir name="Method"><file name="Free.php" hash="6f006768caa6282f4fac6d18b4d260ca"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="4108c8c970351f84a02fdeb908225266"/><file name="config.xml" hash="936cd6a43ad8c6e7d88d1fd89276e9f3"/><file name="system.xml" hash="e3b446b675b803b79e6d7169e1497416"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Egits_AdminPayment.xml" hash="a832595dfe08f1fdb92a5b41ca5f9460"/></dir></target><target name="mageweb"><dir name="."><file name="LICENSE.txt" hash="a0ee912fd64f8ac619025272a61bf520"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>1.5.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
